@@ -34,6 +34,7 @@ function saveTodo() {
 
 function makeTodo(todoObj) { 
     const li = document.createElement("li");
+    li.classList.add("li");
     li.innerText = todoObj.todo;
     li.id = todoObj.id;
     

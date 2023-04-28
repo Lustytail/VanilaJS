@@ -1,6 +1,6 @@
 
-const loginDiv = document.querySelector(".login");
-const mainDiv = document.querySelector(".main");
+const loginDiv = document.querySelector("#login");
+const mainDiv = document.querySelector("#main");
 const id = document.querySelector("#ID");
 const form = document.querySelector(".login-form");
 
